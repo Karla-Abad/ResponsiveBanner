@@ -1,0 +1,61 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  background-image: url("../images/space-medium_prhcl8_c_scale\,w_320.jpg");
+  background-repeat: no repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url("../images/space-medium_prhcl8_c_scale\,w_924.jpg");
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: url("../images/space-medium_prhcl8_c_scale\,w_1388.jpg");
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    background-image: url("../images/space-medium_prhcl8_c_scale\,w_1440.jpg");
+    font-size: 3rem;
+  }
+}
+
+h1,
+h2 {
+  color: white;
+  word-spacing: 1.6rem;
+  text-shadow: 2px 2px black;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 300;
+  background-color: rgba(23, 23, 23, 0.7);
+  padding: 0.75rem;
+}
